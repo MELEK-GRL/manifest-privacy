@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manifest — Hesap silme</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f9e9e8;
+        --card: #fbf4f0;
+        --text: #3d2f4a;
+        --muted: #7a6c84;
+        --accent: #6b4f82;
+        --border: #e8d5dc;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Helvetica, Arial, sans-serif;
+        background: linear-gradient(180deg, #e8d5dc 0%, var(--bg) 40%);
+        color: var(--text);
+        line-height: 1.55;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 20px 64px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 28px 22px;
+        margin-bottom: 20px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 1.7rem;
+        color: var(--accent);
+      }
+      h2 {
+        margin: 24px 0 10px;
+        font-size: 1.15rem;
+        color: var(--accent);
+      }
+      .meta {
+        margin: 0 0 18px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      p,
+      li {
+        margin: 0 0 12px;
+      }
+      ol,
+      ul {
+        margin: 0 0 12px;
+        padding-left: 1.2rem;
+      }
+      a {
+        color: var(--accent);
+      }
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0 0 8px;
+      }
+      .nav a {
+        display: inline-block;
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: #efe0da;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .en {
+        margin-top: 28px;
+        padding-top: 22px;
+        border-top: 1px solid var(--border);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <h1>Manifest — Hesap ve veri silme</h1>
+        <p class="meta">Son güncelleme: 13 Kasım 2026 · MELEK-GRL</p>
+        <div class="nav">
+          <a href="./">Ana sayfa</a>
+          <a href="./#privacy">Gizlilik</a>
+          <a href="./#terms">Koşullar</a>
+          <a
+            href="https://github.com/MELEK-GRL/manifest-privacy/blob/main/ACCOUNT_DELETION.md"
+            >ACCOUNT_DELETION.md</a
+          >
+        </div>
+
+        <h2>Uygulama içinden silme (önerilen)</h2>
+        <ol>
+          <li>Manifest uygulamasını açın ve giriş yapın.</li>
+          <li><strong>Profil</strong> ekranına gidin.</li>
+          <li><strong>Hesabı sil</strong> seçeneğine dokunun.</li>
+          <li>Onay penceresinde silmeyi onaylayın.</li>
+        </ol>
+        <p>
+          Hesap kalıcı olarak silinir; işlem geri alınamaz.
+        </p>
+
+        <h2>Uygulamaya erişemiyorsanız</h2>
+        <p>
+          Talebinizi
+          <a href="https://github.com/MELEK-GRL/manifest-privacy/issues"
+            >GitHub Issues</a
+          >
+          üzerinden iletin. Konu:
+          <strong>Manifest hesap silme</strong>. Kayıtlı e-posta veya kullanıcı
+          adınızı yazın. Kimlik doğrulandıktan sonra hesap silinir (genelde
+          birkaç iş günü).
+        </p>
+
+        <h2>Silinen veriler</h2>
+        <ul>
+          <li>Hesap bilgileri (kullanıcı adı, e-posta, kimlik doğrulama kaydı)</li>
+          <li>Profil fotoğrafı (varsa)</li>
+          <li>Manifest / niyet kayıtları</li>
+          <li>Olumlamalar ve ilişkili hatırlatmalar</li>
+          <li>Vizyon tahtası verileri ve görseller</li>
+          <li>Kullanıcıya bağlı diğer içerikler</li>
+          <li>Cihazdaki ilgili yerel oturum / tercihler</li>
+        </ul>
+
+        <h2>Kısa süre saklanabilecekler</h2>
+        <p>
+          Yasal / güvenlik kayıtları ve yedeklerin tüm kopyalara yansıması için
+          kısa bir süre gerekebilir; ardından silinir. Üçüncü taraf
+          (reklam/barındırma) verileri ilgili sağlayıcı politikasına tabidir.
+        </p>
+
+        <h2>Hesabı silmeden içerik silme</h2>
+        <p>
+          Tekil olumlama, manifest veya vizyon öğelerini uygulama içinden
+          silebilirsiniz. Tüm hesabı kaldırmak için <strong>Hesabı sil</strong>
+          kullanın.
+        </p>
+
+        <div class="en">
+          <h2>English</h2>
+          <p>
+            Open Manifest → Profile → Delete account → confirm. Or request via
+            <a href="https://github.com/MELEK-GRL/manifest-privacy/issues"
+              >GitHub Issues</a
+            >
+            with your email/username. Account, manifests, affirmations, vision
+            board data and local prefs are permanently removed. Full text:
+            <a
+              href="https://github.com/MELEK-GRL/manifest-privacy/blob/main/ACCOUNT_DELETION.md"
+              >ACCOUNT_DELETION.md</a
+            >.
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
