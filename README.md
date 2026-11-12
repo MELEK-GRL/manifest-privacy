@@ -1,88 +1,129 @@
-# Manifest — Gizlilik Politikası
+# Manifest — Gizlilik Politikası ve Sorumluluk Reddi
 
-**Son güncelleme:** 12 Kasım 2026
+**Son güncelleme:** 12 Kasım 2026  
+**Uygulama:** Manifest  
+**Geliştirici / yayıncı:** MELEK-GRL
 
-Web sayfası (Play Store / uygulama linki):  
-https://melek-grl.github.io/manifest-privacy/
-
-Bu dosya, politikayı GitHub üzerinden de rahatça okumanız içindir.
+Web sayfası: https://melek-grl.github.io/manifest-privacy/
 
 ---
 
-## Türkçe
+## Önemli uyarı (lütfen okuyun)
 
-Bu gizlilik politikası, Manifest mobil uygulamasını (“Uygulama”) kullanırken hangi verilerin işlendiğini ve nasıl korunduğunu açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş sayılırsınız.
+Manifest; kişisel gelişim, motivasyon, olumlama, ritüel, manifest, meditasyon, vision board, melek sayıları ve benzeri **ilham / eğlence / kişisel kullanım** amaçlı bir uygulamadır.
+
+- Uygulama **tıbbi, psikolojik, hukuki, finansal veya profesyonel danışmanlık değildir.**
+- Olumlama, ritüel, manifest, niyet, meditasyon ve benzeri içerikler **garanti, vaat veya sonuç taahhüdü taşımaz.**
+- Uygulamayı kullanarak oluşan **her türlü karar, eylem, sonuç, zarar, kayıp veya mağduriyetten kullanıcı tek başına sorumludur.**
+- Geliştirici / yayıncı, **hiçbir konuda sorumluluk kabul etmez.**
+
+Kayıt olurken veya uygulamayı kullanırken bu metni kabul etmiş sayılırsınız. Kabul etmiyorsanız uygulamayı kullanmayın / hesabınızı kullanmayı bırakın.
+
+---
+
+## Türkçe — Gizlilik Politikası
+
+Bu metin, Manifest mobil uygulamasını (“Uygulama”) kullanırken hangi verilerin işlenebileceğini ve geliştiricinin sorumluluk sınırlarını açıklar.
 
 ### 1. Topladığımız veriler
 
-- **Hesap bilgileri:** kullanıcı adı, e-posta ve şifre (şifre sunucuda güvenli biçimde saklanır; düz metin olarak tutulmaz).
+- **Hesap bilgileri:** kullanıcı adı, e-posta ve şifre (şifre güvenli biçimde işlenir; düz metin olarak tutulmaz).
 - **Profil:** isteğe bağlı profil fotoğrafı.
-- **Uygulama içeriği:** olumlamalar, manifest niyetleri, ritüel tercihleri, vision board öğeleri, bildirim ayarları gibi sizin oluşturduğunuz içerikler.
-- **Cihaz / yerel depolama:** oturum token’ı, dil ve bildirim tercihleri gibi ayarlar cihazınızda saklanabilir.
-- **Bildirimler:** izin verirseniz yerel veya zamanlanmış hatırlatmalar için bildirim kimliği / izin durumu.
+- **Uygulama içeriği:** olumlamalar, manifest niyetleri, ritüel tercihleri, vision board öğeleri, bildirim ayarları ve sizin oluşturduğunuz diğer içerikler.
+- **Cihaz / yerel depolama:** oturum bilgisi, dil ve bildirim tercihleri gibi ayarlar cihazınızda saklanabilir.
+- **Bildirimler:** izin verirseniz hatırlatmalar için bildirim izin / zamanlama bilgisi.
 
 ### 2. Verileri nasıl kullanıyoruz
 
 - Hesap oluşturma, giriş ve oturum yönetimi
-- Uygulama özelliklerinin sunulması (olumlama, manifest, panolar vb.)
+- Uygulama özelliklerinin sunulması
 - İsteğe bağlı hatırlatma bildirimleri
-- Hizmet güvenliği ve teknik sorun giderme
+- Teknik güvenlik ve sorun giderme
+
+Verileriniz reklam, analitik veya barındırma gibi **üçüncü taraf hizmetler** aracılığıyla da işlenebilir (ör. Google AdMob, Firebase, barındırma sağlayıcısı). Bu hizmetlerin kendi politikaları geçerlidir.
 
 ### 3. Reklamlar ve üçüncü taraflar
 
-Uygulamada Google AdMob gibi reklam hizmetleri kullanılabilir. Bu hizmetler cihaz tanımlayıcıları, yaklaşık konum veya reklam etkileşim verileri toplayabilir. Ayrıntılar için ilgili sağlayıcının gizlilik politikasına bakın: [Google Privacy Policy](https://policies.google.com/privacy).
-
-Analitik / Firebase gibi araçlar kullanılıyorsa, bunlar uygulama kullanımını iyileştirmek için anonim veya toplu veriler işleyebilir.
+Uygulamada Google AdMob gibi reklam hizmetleri kullanılabilir. Cihaz tanımlayıcıları ve reklam verileri toplanabilir. Ayrıntı: [Google Privacy Policy](https://policies.google.com/privacy).
 
 ### 4. Saklama ve güvenlik
 
-Verileriniz, hizmeti sunmak için gerekli olduğu sürece saklanır. Hesap ve içerik verileri sunucularımızda tutulabilir; yerel tercihler cihazınızda kalabilir. Yetkisiz erişime karşı makul teknik önlemler uygularız.
+Veriler hizmet için gerekli olduğu sürece saklanabilir. Makul teknik önlemler alınır; ancak **internet üzerinden %100 güvenlik garanti edilemez.** Kullanıcı, hesabının ve cihazının güvenliğinden de sorumludur.
 
-### 5. Haklarınız
+### 5. Kullanıcı sorumluluğu ve içerik
 
-Hesabınızı ve uygulama içi içeriklerinizi yönetebilir / silebilirsiniz. Bildirim izinlerini cihaz ayarlarından kapatabilirsiniz. Kişisel verilerinizle ilgili talepleriniz için bizimle iletişime geçebilirsiniz.
+- Uygulamaya girdiğiniz tüm metin, görsel ve tercihler **sizin sorumluluğunuzdadır.**
+- Yasadışı, zararlı, başkalarının haklarını ihlal eden içerik yüklememelisiniz.
+- Olumlama / ritüel / manifest / meditasyon sonuçlarından **geliştirici sorumlu değildir.**
 
-### 6. Çocuklar
+### 6. Sorumluluk reddi (Disclaimer)
 
-Uygulama 13 yaş altındaki çocuklara yönelik değildir. Bilerek 13 yaş altından veri toplamayız.
+Yasal olarak izin verilen en geniş ölçüde:
 
-### 7. Değişiklikler
+1. Uygulama **“olduğu gibi” (as is)** sunulur; açık veya zımni hiçbir garanti verilmez.
+2. Geliştirici; doğrudan, dolaylı, arızi, özel, cezai veya sonuç olarak doğan **hiçbir zarardan sorumlu tutulamaz.**
+3. Özellikle şu alanlarla ilgili **hiçbir sonuç, iyileşme, kazanç, ilişki, sağlık, ruh hali veya yaşam olayı taahhüt edilmez / sorumluluk kabul edilmez:**
+   - olumlama
+   - ritüel
+   - manifest / niyet
+   - meditasyon
+   - vision board / panolar
+   - melek sayıları / şans içerikleri
+   - bildirimler ve hatırlatmalar
+4. Kullanıcı, uygulamayı **kendi riskiyle** kullanır; gelebilecek her türlü iddia, talep ve sonuçtan **kullanıcı sorumludur.**
+5. Geliştirici, kullanıcılar arası veya üçüncü taraflarla doğabilecek anlaşmazlıklardan sorumlu değildir.
 
-Bu politikayı zaman zaman güncelleyebiliriz. Güncel sürüm bu depoda ve web sayfasında yayınlanır; önemli değişikliklerde uygulamada bilgilendirme yapılabilir.
+### 7. Çocuklar
 
-### 8. İletişim
+Uygulama 13 yaş altındaki çocuklara yönelik değildir. Bilerek 13 yaş altından veri toplanmaz.
 
-Gizlilik ile ilgili sorularınız için uygulama içi destek kanallarını kullanın veya bu depoyu ziyaret edin: [manifest-privacy](https://github.com/MELEK-GRL/manifest-privacy).
+### 8. Haklarınız
+
+Hesap ve içeriklerinizi uygulama içinden yönetebilir / silebilirsiniz. Bildirim izinlerini cihaz ayarlarından kapatabilirsiniz.
+
+### 9. Değişiklikler
+
+Bu metin önceden haber vermeksizin güncellenebilir. Güncel sürüm bu depoda ve web sayfasında yayınlanır. Uygulamayı kullanmaya devam etmek güncel metni kabul etmek anlamına gelir.
+
+### 10. İletişim
+
+Gizlilik soruları için bu depoyu kullanın: [manifest-privacy](https://github.com/MELEK-GRL/manifest-privacy).
 
 ---
 
-## English
+## English — Privacy Policy & Disclaimer
 
 **Last updated:** November 12, 2026
 
 Public page: https://melek-grl.github.io/manifest-privacy/
 
-This Privacy Policy explains what data the Manifest mobile app (“App”) processes and how it is protected. By using the App, you agree to this policy.
+### Important notice
+
+Manifest is for **personal inspiration / entertainment / self-use** only (affirmations, rituals, manifesting, meditation, vision boards, angel numbers, etc.).
+
+- It is **not** medical, psychological, legal, or financial advice.
+- No outcomes are promised.
+- **You alone are responsible** for any decisions, actions, results, losses, or claims arising from use of the App.
+- The developer/publisher **accepts no liability** of any kind to the fullest extent permitted by law.
+
+By registering or using the App, you accept this policy. If you do not agree, do not use the App.
 
 ### Data we collect
 
-- Account details: username, email, and password (stored securely)
+- Account: username, email, password (stored securely)
 - Optional profile photo
 - User-created content (affirmations, manifests, rituals, vision board items, notification settings)
-- Local preferences (session token, language, notification prefs)
-- Notification permission / scheduling data if you opt in
+- Local preferences (session, language, notifications)
+- Notification permission/scheduling if enabled
 
 ### How we use data
 
-- Authentication and account management
-- Providing app features
-- Optional reminder notifications
-- Security and troubleshooting
+Authentication, app features, optional reminders, security/troubleshooting. Third parties (e.g. AdMob, Firebase, hosting) may process data under their own policies.
 
-### Ads & third parties
+### Disclaimer
 
-The App may use Google AdMob and similar services, which may collect device identifiers and ad-related data under their own policies ([Google Privacy Policy](https://policies.google.com/privacy)).
+THE APP IS PROVIDED “AS IS” WITHOUT WARRANTIES. THE DEVELOPER SHALL NOT BE LIABLE FOR ANY DAMAGES OR CLAIMS ARISING FROM USE OF THE APP, INCLUDING BUT NOT LIMITED TO AFFIRMATIONS, RITUALS, MANIFESTING, MEDITATION, VISION BOARDS, ANGEL NUMBERS, OR NOTIFICATIONS. YOU USE THE APP AT YOUR OWN RISK AND ARE SOLELY RESPONSIBLE FOR ALL OUTCOMES.
 
 ### Contact
 
-For privacy questions, use in-app support channels or visit this repository.
+https://github.com/MELEK-GRL/manifest-privacy
