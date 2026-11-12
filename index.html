@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Manifest — Gizlilik Politikası ve Sorumluluk Reddi</title>
+    <title>Manifest — Gizlilik ve Kullanım Koşulları</title>
     <style>
       :root {
         color-scheme: light;
@@ -13,7 +13,6 @@
         --muted: #7a6c84;
         --accent: #6b4f82;
         --border: #e8d5dc;
-        --warn: #56406b;
       }
       * {
         box-sizing: border-box;
@@ -36,26 +35,26 @@
         border: 1px solid var(--border);
         border-radius: 20px;
         padding: 28px 22px;
+        margin-bottom: 20px;
       }
       h1 {
         margin: 0 0 8px;
-        font-size: 1.75rem;
+        font-size: 1.7rem;
+        color: var(--accent);
+      }
+      h2 {
+        margin: 24px 0 10px;
+        font-size: 1.15rem;
         color: var(--accent);
       }
       .meta {
-        margin: 0 0 24px;
+        margin: 0 0 18px;
         color: var(--muted);
         font-size: 0.95rem;
-      }
-      h2 {
-        margin: 28px 0 10px;
-        font-size: 1.15rem;
-        color: var(--accent);
       }
       p,
       li {
         margin: 0 0 12px;
-        color: var(--text);
       }
       ul {
         margin: 0 0 12px;
@@ -64,19 +63,31 @@
       a {
         color: var(--accent);
       }
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0 0 8px;
+      }
+      .nav a {
+        display: inline-block;
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: #efe0da;
+        text-decoration: none;
+        font-weight: 600;
+      }
       .warn {
         border: 1px solid var(--border);
         background: #efe0da;
         border-radius: 14px;
-        padding: 16px 14px;
-        margin: 0 0 24px;
-      }
-      .warn strong {
-        color: var(--warn);
+        padding: 14px;
+        margin: 0 0 18px;
       }
       .en {
-        margin-top: 40px;
-        padding-top: 28px;
+        margin-top: 28px;
+        padding-top: 22px;
         border-top: 1px solid var(--border);
       }
     </style>
@@ -84,170 +95,133 @@
   <body>
     <main>
       <article class="card">
-        <h1>Gizlilik Politikası ve Sorumluluk Reddi</h1>
-        <p class="meta">
-          Manifest uygulaması · Son güncelleme: 12 Kasım 2026 · Geliştirici:
-          MELEK-GRL
-        </p>
-
-        <div class="warn">
-          <p>
-            <strong>Önemli:</strong> Manifest; olumlama, ritüel, manifest,
-            meditasyon, vision board ve benzeri alanlarda
-            <strong>ilham / kişisel kullanım</strong> içindir. Tıbbi, hukuki
-            veya finansal tavsiye değildir. Hiçbir sonuç garanti edilmez.
-            Uygulamayı kullanarak doğabilecek
-            <strong>her türlü sonuç ve zarardan kullanıcı sorumludur</strong>.
-            Geliştirici <strong>hiçbir konuda sorumluluk kabul etmez</strong>.
-          </p>
+        <h1>Manifest — Yasal belgeler</h1>
+        <p class="meta">Son güncelleme: 12 Kasım 2026 · MELEK-GRL</p>
+        <div class="nav">
+          <a href="#privacy">Gizlilik Politikası</a>
+          <a href="#terms">Kullanım Koşulları</a>
+          <a href="https://github.com/MELEK-GRL/manifest-privacy/blob/main/PRIVACY.md"
+            >PRIVACY.md</a
+          >
+          <a href="https://github.com/MELEK-GRL/manifest-privacy/blob/main/TERMS.md"
+            >TERMS.md</a
+          >
         </div>
-
         <p>
-          Kayıt olurken veya uygulamayı kullanırken bu metni kabul etmiş
-          sayılırsınız. Kabul etmiyorsanız uygulamayı kullanmayın.
+          Kayıt olurken hem Gizlilik Politikası hem Kullanım Koşulları kabul
+          edilmelidir.
         </p>
+      </article>
 
-        <h2>1. Topladığımız veriler</h2>
+      <article class="card" id="privacy">
+        <h1>Gizlilik Politikası</h1>
+        <p>
+          Bu politika hangi kişisel verilerin işlenebileceğini açıklar.
+          Sorumluluk ve kullanım kuralları için
+          <a href="#terms">Kullanım Koşulları</a>’na bakın.
+        </p>
+        <h2>Toplanan veriler</h2>
         <ul>
+          <li>Hesap: kullanıcı adı, e-posta, şifre (güvenli işlenir)</li>
+          <li>İsteğe bağlı profil fotoğrafı</li>
           <li>
-            <strong>Hesap bilgileri:</strong> kullanıcı adı, e-posta ve şifre
-            (şifre güvenli işlenir; düz metin tutulmaz).
+            Kullanıcı içeriği (olumlama, manifest, ritüel, vision board,
+            bildirim ayarları)
           </li>
-          <li><strong>Profil:</strong> isteğe bağlı profil fotoğrafı.</li>
-          <li>
-            <strong>Uygulama içeriği:</strong> olumlamalar, manifest niyetleri,
-            ritüel tercihleri, vision board öğeleri, bildirim ayarları ve sizin
-            oluşturduğunuz diğer içerikler.
-          </li>
-          <li>
-            <strong>Cihaz / yerel depolama:</strong> oturum, dil ve bildirim
-            tercihleri.
-          </li>
-          <li>
-            <strong>Bildirimler:</strong> izin verirseniz hatırlatma izin /
-            zamanlama bilgisi.
-          </li>
+          <li>Yerel tercihler (oturum, dil, bildirim)</li>
+          <li>Bildirim izni / zamanlama (izin verirseniz)</li>
         </ul>
-
-        <h2>2. Verileri nasıl kullanıyoruz</h2>
+        <h2>Kullanım amacı</h2>
         <ul>
-          <li>Hesap, giriş ve oturum yönetimi</li>
+          <li>Kimlik doğrulama ve hesap yönetimi</li>
           <li>Uygulama özelliklerinin sunulması</li>
           <li>İsteğe bağlı hatırlatmalar</li>
-          <li>Güvenlik ve teknik sorun giderme</li>
+          <li>Güvenlik / teknik destek</li>
         </ul>
-
-        <h2>3. Reklamlar ve üçüncü taraflar</h2>
+        <h2>Üçüncü taraflar</h2>
         <p>
-          Google AdMob gibi hizmetler kullanılabilir; cihaz tanımlayıcıları ve
-          reklam verileri toplanabilir.
+          AdMob, Firebase, barındırma vb. hizmetler kendi politikalarına tabidir.
           <a
             href="https://policies.google.com/privacy"
             target="_blank"
             rel="noopener noreferrer"
             >Google Privacy Policy</a
-          >. Firebase / barındırma gibi üçüncü tarafların kendi politikaları
-          geçerlidir.
+          >.
         </p>
-
-        <h2>4. Saklama ve güvenlik</h2>
+        <h2>Haklar ve iletişim</h2>
         <p>
-          Veriler hizmet için gerekli olduğu sürece saklanabilir. Makul önlemler
-          alınır; internette mutlak güvenlik garanti edilmez. Hesap ve cihaz
-          güvenliği de kullanıcının sorumluluğundadır.
+          Hesap/içerik silme uygulama üzerinden yapılabilir. İletişim:
+          <a href="https://github.com/MELEK-GRL/manifest-privacy"
+            >GitHub deposu</a
+          >.
         </p>
+        <div class="en">
+          <h2>English summary</h2>
+          <p>
+            We process account data, optional profile photo, user-created
+            content, local prefs, and optional notification data to run the App.
+            Third-party ads/analytics/hosting may apply. Full text:
+            <a
+              href="https://github.com/MELEK-GRL/manifest-privacy/blob/main/PRIVACY.md"
+              >PRIVACY.md</a
+            >.
+          </p>
+        </div>
+      </article>
 
-        <h2>5. Kullanıcı sorumluluğu</h2>
+      <article class="card" id="terms">
+        <h1>Kullanım Koşulları (ToS)</h1>
+        <div class="warn">
+          <p>
+            <strong>Önemli:</strong> Manifest ilham / kişisel kullanım içindir;
+            tıbbi-hukuki-finansal tavsiye değildir. Olumlama, ritüel, manifest,
+            meditasyon vb. için
+            <strong>sonuç garantisi yoktur</strong>. Her türlü sonuçtan
+            <strong>kullanıcı sorumludur</strong>. Geliştirici
+            <strong>sorumluluk kabul etmez</strong>.
+          </p>
+        </div>
+        <h2>Hizmet</h2>
+        <p>
+          Uygulama “olduğu gibi” sunulur. Kayıt / kullanım bu koşulları kabul
+          demektir.
+        </p>
+        <h2>Kullanıcı sorumluluğu</h2>
         <ul>
-          <li>Girdiğiniz tüm içerik sizin sorumluluğunuzdadır.</li>
-          <li>Yasadışı veya başkalarının haklarını ihlal eden içerik yasaktır.</li>
-          <li>
-            Olumlama, ritüel, manifest, meditasyon ve benzeri kullanımların
-            sonuçlarından geliştirici sorumlu değildir.
-          </li>
-        </ul>
-
-        <h2>6. Sorumluluk reddi</h2>
-        <p>Yasal olarak izin verilen en geniş ölçüde:</p>
-        <ul>
-          <li>Uygulama “olduğu gibi” sunulur; garanti verilmez.</li>
-          <li>
-            Geliştirici; doğrudan / dolaylı / sonuç olarak doğan hiçbir zarardan
-            sorumlu tutulamaz.
-          </li>
+          <li>Hesap güvenliği ve girilen içerik size aittir.</li>
+          <li>Yasadışı / hak ihlali içeren kullanım yasaktır.</li>
           <li>
             Olumlama, ritüel, manifest, meditasyon, vision board, melek
-            sayıları, bildirimler vb. alanlarda hiçbir sonuç taahhüt edilmez;
-            sorumluluk kabul edilmez.
-          </li>
-          <li>
-            Kullanıcı uygulamayı kendi riskiyle kullanır; gelebilecek her türlü
-            iddia ve sonuçtan kullanıcı sorumludur.
+            sayıları, bildirimler: kendi riskinizle; geliştirici sorumlu
+            değildir.
           </li>
         </ul>
-
-        <h2>7. Çocuklar</h2>
+        <h2>Sorumluluk sınırı</h2>
         <p>
-          Uygulama 13 yaş altına yönelik değildir. Bilerek 13 yaş altından veri
-          toplanmaz.
+          Yasaların izin verdiği ölçüde geliştirici hiçbir zarardan sorumlu
+          tutulamaz. Ücretsiz kullanımda sorumluluk (zorunlu haller dışında)
+          sıfır ile sınırlıdır. Uygulanacak hukuk: Türkiye Cumhuriyeti (zorunlu
+          tüketici hükümleri saklıdır).
         </p>
-
-        <h2>8. Haklarınız</h2>
         <p>
-          Hesap ve içeriklerinizi uygulama içinden yönetebilir / silebilirsiniz.
-          Bildirimleri cihaz ayarlarından kapatabilirsiniz.
-        </p>
-
-        <h2>9. Değişiklikler</h2>
-        <p>
-          Bu metin güncellenebilir. Güncel sürüm bu sayfada yayınlanır.
-          Kullanıma devam etmek kabul anlamına gelir.
-        </p>
-
-        <h2>10. İletişim</h2>
-        <p>
+          Tam metin:
           <a
-            href="https://github.com/MELEK-GRL/manifest-privacy"
-            target="_blank"
-            rel="noopener noreferrer"
-            >manifest-privacy</a
-          >
+            href="https://github.com/MELEK-GRL/manifest-privacy/blob/main/TERMS.md"
+            >TERMS.md</a
+          >.
         </p>
-
         <div class="en">
-          <h1>Privacy Policy &amp; Disclaimer</h1>
-          <p class="meta">Manifest app · Last updated: November 12, 2026</p>
-          <div class="warn">
-            <p>
-              <strong>Important:</strong> Manifest is for personal
-              inspiration/entertainment only. Not professional advice. No
-              outcomes are promised.
-              <strong>You are solely responsible</strong> for all consequences.
-              The developer
-              <strong>accepts no liability of any kind</strong>.
-            </p>
-          </div>
+          <h2>English summary</h2>
           <p>
-            THE APP IS PROVIDED “AS IS”. TO THE FULLEST EXTENT PERMITTED BY LAW,
-            THE DEVELOPER SHALL NOT BE LIABLE FOR ANY DAMAGES OR CLAIMS ARISING
-            FROM AFFIRMATIONS, RITUALS, MANIFESTING, MEDITATION, VISION BOARDS,
-            ANGEL NUMBERS, NOTIFICATIONS, OR ANY OTHER USE OF THE APP. YOU USE
-            THE APP AT YOUR OWN RISK.
-          </p>
-          <h2>Data</h2>
-          <ul>
-            <li>Account: username, email, password (stored securely)</li>
-            <li>Optional profile photo and user-created content</li>
-            <li>Local preferences and optional notification data</li>
-          </ul>
-          <h2>Contact</h2>
-          <p>
+            THE APP IS PROVIDED “AS IS”. No outcomes are promised for
+            affirmations, rituals, manifesting, meditation, vision boards, or
+            notifications. You use the App at your own risk. The developer
+            accepts no liability to the fullest extent permitted by law. Full
+            text:
             <a
-              href="https://github.com/MELEK-GRL/manifest-privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitHub repository</a
-            >
+              href="https://github.com/MELEK-GRL/manifest-privacy/blob/main/TERMS.md"
+              >TERMS.md</a
+            >.
           </p>
         </div>
       </article>
